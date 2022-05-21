@@ -1,5 +1,10 @@
-import './index.css';
+import './index.css'
+import { Sidebar } from '../Sidebar'
 
 export const Layout = () => {
-    return <>Hello</>
-}     
+  return (
+    <>
+      <Sidebar />
+    </>
+  )
+}
