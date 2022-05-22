@@ -7,7 +7,7 @@ export const Home = () => {
             <div className="text-zone">
                 <h1>Hi, <br /> I'm
                 
-                Sayam Ajmal
+                Sayam
                 <br />
                 web developer
                 </h1>
