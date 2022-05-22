@@ -7,10 +7,12 @@ import {
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import './index.css'
 
 export const About = () => {
   return (
+    <>
     <div className="container about-page">
       <div className="text-zone">
         <h1>About me</h1>
@@ -53,5 +55,7 @@ export const About = () => {
           </div>
         </div>
       </div>
+
+      </>
   )
 }
